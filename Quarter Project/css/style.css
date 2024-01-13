@@ -1,16 +1,29 @@
 * {box-sizing: border-box}
 
-/* Set height of body and the document to 100% */
 body, html {
   height: 100%;
   margin: 0;
   font-family: Arial;
 }
+.social-icons {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.facebook-icon {
+  width: 30px;
+  height: 30px;
+  background: url('images/facebook-sprite.jpg') no-repeat;
+  background-size: 60px 30px;
+  display: inline-block;
+  margin-left: 10px;
+}
  header{
-	 position: center;
-	 background-color: 'light green';
+position: center;
+background-color: 'light green';
  }
-/* Style tab links */
+
 .tablink {
   background-color: #555;
   color: white;
