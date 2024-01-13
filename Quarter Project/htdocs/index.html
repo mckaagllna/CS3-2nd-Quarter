@@ -9,10 +9,14 @@
 	<body>
 	  <header>
 	    <h1>Welcome to Soccer World</h1>
+	    <div class="social-icons">
+	      <a href="https://www.facebook.com/" target="_blank" class="facebook-icon"></a>
+	    </div>
 	  </header>
+
 	
-	  <button class="tablink" onclick="openPage('Home', this, '#FFD700')">Home</button>
-	  <button class="tablink" onclick="openPage('News', this, '#4CAF50')" id="defaultOpen">News</button>
+	  <button class="tablink" onclick="openPage('Home', this, '#FFD700')" id="defaultOpen">Home</button>
+	  <button class="tablink" onclick="openPage('News', this, '#4CAF50')">News</button>
 	  <button class="tablink" onclick="openPage('Contact', this, '#1E90FF')">Contact</button>
 	  <button class="tablink" onclick="openPage('About', this, '#FF6347')">About</button>
 	  <button class="tablink" onclick="openPage('Players', this, '#800080')">Star Players</button>
@@ -47,10 +51,41 @@
 	  <div id="Players" class="tabcontent">
 	    <h3>Star Players</h3>
 	    <p>Discover some of the greatest soccer stars in the world.</p>
-	    <!-- Add detailed descriptions and images for each player here -->
-	  </div>
-	
+	    <!-- Inside the "Players" div in your index.html -->
+			<div id="Players" class="tabcontent">
+			  <h3>Star Players</h3>
+			  <p>Discover some of the greatest soccer stars in the world. Check out the Forbes article for the complete list:
+			    <a href="https://www.forbes.com/sites/bobbymcmahon/2019/09/05/worlds-best-men-women-soccer-players-named-by-pros/?sh=870848b4667f" target="_blank">Forbes</a>
+			  </p>
+				<div class="player">
+				  <img src="images/messi.jpg" alt="Lionel Messi Image">
+				  <h4>Lionel Messi</h4>
+				  <p>
+				    Lionel Messi, born on June 24, 1987, in Rosario, Argentina, is widely regarded as one of the greatest football players of all time. Known for his exceptional skills, agility, and goal-scoring prowess, Messi has spent the majority of his career with FC Barcelona.
+				  </p>
+				  <p>
+				    Messi's list of accolades is extensive, including multiple FIFA Ballon d'Or awards, UEFA Champions League titles, La Liga championships, and numerous individual records. His ability to dribble past defenders with ease, score breathtaking goals, and contribute selflessly to his team has endeared him to football fans worldwide.
+				  </p>
+				  <p>
+				    Beyond his on-field achievements, Messi is known for his humility and sportsmanship. He has become an iconic figure in the football world, inspiring aspiring players and capturing the hearts of millions with his remarkable talent and dedication to the beautiful game.
+				  </p>
+				</div>
+				<div class="player">
+				  <img src="images/ronaldo.jpg" alt="Cristiano Ronaldo Image">
+				  <h4>Cristiano Ronaldo</h4>
+				  <p>
+				    Born on February 5, 1985, in Funchal, Madeira, Portugal, Cristiano Ronaldo is a football legend renowned for his goal-scoring prowess, athleticism, and versatility on the field. Ronaldo has enjoyed a stellar career, making a significant impact at various top clubs, including Sporting Lisbon, Manchester United, Real Madrid, and Juventus.
+				  </p>
+				  <p>
+				    Ronaldo's list of achievements includes numerous FIFA Ballon d'Or awards, UEFA Champions League titles, domestic league championships, and individual records. His powerful shots, incredible headers, and ability to perform under pressure have solidified his status as one of the greatest forwards in football history.
+				  </p>
+				  <p>
+				    Beyond his contributions to football, Ronaldo is known for his dedication to fitness, work ethic, and philanthropy. Off the pitch, he engages in charitable activities and strives to make a positive impact on the community. Ronaldo's charisma and leadership qualities have earned him a massive global fanbase, making him an influential figure in the world of sports.
+				  </p>
+				</div>
+
+			</div>
+	 	 </div>
 	  <script src="js/script.js"></script>
 	</body>
-
 </html>
