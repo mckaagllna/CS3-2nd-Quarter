@@ -1,37 +1,56 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
-		<link rel="stylesheet" href="style.css">
-		<title>Goal Grove</title>	
+	  <link rel="stylesheet" href="css/style.css">
+	  <title>Soccer World</title>
 	</head>
-		<body>
-			
-			<header><h1>Welcome to Goal Grove</h1></header>
-		
-				<button class="tablink" onclick="openPage('Home', this, 'yellow')">Home</button>
-				<button class="tablink" onclick="openPage('News', this, 'green')" id="defaultOpen">News</button>
-				<button class="tablink" onclick="openPage('Contact', this, 'blue')">Contact</button>
-				<button class="tablink" onclick="openPage('About', this, 'red')">About</button>
-
-				<div id="Home" class="tabcontent">
-				  <h3>Home</h3>
-				  <p>Home is where the heart is..</p>
-				</div>
-
-				<div id="News" class="tabcontent">
-				  <h3>News</h3>
-				  <p>Some news this fine day!</p>
-				</div>
-
-				<div id="Contact" class="tabcontent">
-				  <h3>Contact</h3>
-				  <p>Get in touch, or swing by for a cup of coffee.</p>
-				</div>
-
-				<div id="About" class="tabcontent">
-				  <h3>About</h3>
-				  <p>Who we are and what we do.</p>
-			</div>
-		<script src="script.js"></script>
+	
+	<body>
+	  <header>
+	    <h1>Welcome to Soccer World</h1>
+	  </header>
+	
+	  <button class="tablink" onclick="openPage('Home', this, '#FFD700')">Home</button>
+	  <button class="tablink" onclick="openPage('News', this, '#4CAF50')" id="defaultOpen">News</button>
+	  <button class="tablink" onclick="openPage('Contact', this, '#1E90FF')">Contact</button>
+	  <button class="tablink" onclick="openPage('About', this, '#FF6347')">About</button>
+	  <button class="tablink" onclick="openPage('Players', this, '#800080')">Star Players</button>
+	
+	  <div id="Home" class="tabcontent">
+	    <h3>Home</h3>
+	    <p>Welcome to the ultimate soccer experience!</p>
+	    <img src="images/soccer_home.jpg" alt="Soccer Home Image">
+	  </div>
+	
+	  <div id="News" class="tabcontent">
+	    <h3>Soccer News</h3>
+	    <p>Stay updated with the latest soccer news and highlights!</p>
+	    <video controls autoplay>
+	      <source src="videos/soccer_highlights.mp4" type="video/mp4">
+	      Your browser does not support the video tag.
+	    </video>
+	  </div>
+	
+	  <div id="Contact" class="tabcontent">
+	    <h3>Contact</h3>
+	    <p>Get in touch with us for any soccer-related inquiries.</p>
+	    <img src="images/soccer_contact.jpg" alt="Soccer Contact Image">
+	  </div>
+	
+	  <div id="About" class="tabcontent">
+	    <h3>About Us</h3>
+	    <p>Learn more about Soccer World and our passion for the game.</p>
+	    <img src="images/soccer_about.jpg" alt="Soccer About Image">
+	  </div>
+	
+	  <div id="Players" class="tabcontent">
+	    <h3>Star Players</h3>
+	    <p>Discover some of the greatest soccer stars in the world.</p>
+	    <!-- Add detailed descriptions and images for each player here -->
+	  </div>
+	
+	  <script src="js/script.js"></script>
 	</body>
-</html>	
+
+</html>
